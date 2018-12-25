@@ -11,3 +11,5 @@ def divisibleSumPairs(n, k, ar):
     return total
 
 print(divisibleSumPairs(6,3,[1,3,2,6,1,2]))
+
+# Hey hey, hey tayyo
