@@ -18,6 +18,7 @@
 #             print(newScores.index(score)+1)
 
 # ini solusi yang menurut saya sangat bagus
+# Saya selalu terkesima denganm program yang ditulis oleh [para master]
 def climbingLeaderboard(scores, alice):
     scores.sort(reverse = True)
     # membuat setiap elemen di list menjadi unik
@@ -32,7 +33,5 @@ def climbingLeaderboard(scores, alice):
         ranking.append(l+1)
 
     print(ranking)
-    
-
 
 climbingLeaderboard([100, 100, 50, 40, 20, 10], [5, 25, 50, 102])
